@@ -1,0 +1,199 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+.inter-<uniquifier> {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+/* ------------------------------------------
+              N A V.   M E N U 
+-------------------------------------------*/
+
+.nav {
+    font-family: 'inter';
+    position: fixed;
+    top: 24px;
+    left: 50%;
+    transform: translateX(-50%);
+    align-items: center;
+    gap: 8px;
+    padding: 8px;
+    border-radius: 999px;
+
+    background: rgba(0, 0, 0, 0.12);
+    backdrop-filter: blur(20px) saturate(180%);
+    -webkit-backdrop-filter: blur(20px) saturate(180%);
+
+    border: 1px solid rgba(255, 255, 255, 0.2);
+
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.15), inset 0 1px 1px rgba(255, 255, 255, 0.15);
+
+    z-index: 1000;
+}
+
+.nav a {
+    color: rgba(255, 255, 255, 0.8);
+
+    text-decoration: none;
+
+    font-size: 14px;
+    font-weight: 300;
+
+    padding: 10px 16px;
+
+    border-radius: 999px;
+
+    transition: 
+        background 1s ease,
+        color 1s ease;
+}
+
+.nav a:hover {
+    background: rgba(249, 6, 105, 0.50);
+    color: rgb(255, 255, 255);
+}
+
+/*------------------------------------------------
+               | | H  O  M  E  | |
+------------------------------------------------*/
+
+.section {
+    min-height: 100vh;
+    height: 100%;
+    display: flex;
+    align-items: right;
+    justify-content: right;
+
+    padding: 100px 24px;
+}
+
+.content {
+    
+    text-align: left;
+    position: relative;
+    z-index: 3;
+}
+
+.content2 {
+    
+    text-align: left;
+    position: relative;
+    z-index: 3;
+    padding: 50px;
+}
+
+h1 {
+    color: white;
+    padding-top: 15%;
+    padding-left: 50px;
+    font-family: 'inter';
+    font-weight: 800;
+    font-size: clamp(60px, 10vw, 140px);
+    letter-spacing: -0.06em;
+    position: relative;
+    z-index: 10;
+}
+
+#home p {
+    font-family: 'inter';
+    font-weight: 800;
+    margin-top: 3%;
+    margin-left: 50px;
+    position: relative;
+    z-index: 10;
+
+    font-size: clamp(60px, 10vw, 143px);
+    line-height: 1.2;
+
+    background: linear-gradient(
+
+        to bottom,
+
+        rgba(255, 255, 255, 1),
+
+        rgba(255, 255, 255, 0.461)
+
+    );
+
+    -webkit-background-clip: text;
+
+    background-clip: text;
+
+    color: transparent;
+}
+
+#home {
+    position: relative;
+    min-height: 100vh;
+    overflow: hidden;
+}
+
+#home .herobg {
+    width: 100%;
+    inset: 0;
+    z-index: 1;
+    position: absolute;
+    object-fit: cover;
+}
+
+#home .phones {
+    width: 100%;
+    max-width: 1500px;
+    z-index: 4;
+    position: absolute;
+   
+    left: 50%;
+    /*top: 50%;*/
+    transform: translate(-50%);
+}
+
+#home .logo {
+    width: 30%;
+    max-width: 300px;
+    z-index: 3;
+    position: relative;
+    margin-left: 50px;
+    margin-top: 2%;
+}
+
+#home .geton {
+    max-height: 40px;
+    padding-top: 0;
+}
+
+
+/*--------------------------------------
+        | |   M E E T L Y   | |
+--------------------------------------*/
+
+#meetly {
+    background-color: rgb(230, 16, 101);
+}
+
+#meetly .content{
+    background-color: white;
+}
+
+h2 {
+    font-family: 'inter';
+    font-size: clamp(48px, 7vw, 60px);
+    letter-spacing: -0.05em;
+    padding-right: 85px;
+    padding-top: 15%;
+}
+
+#meetly p {
+    margin-top: 3%;
+    font-family: 'inter';
+}
