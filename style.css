@@ -101,7 +101,7 @@ html {
 .content2 {
     position: absolute;
     left: 50px;
-    bottom: 30px;
+    bottom: 25px;
     z-index: 5;
     padding: 0;
     display: flex;
