@@ -843,7 +843,7 @@ h1 {
 
     #home .content {
         left: 0;
-        top: 70%;
+        top: 75%;
         width: 100%;
         transform: translateY(-50%);
     }
