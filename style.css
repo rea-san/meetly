@@ -101,7 +101,7 @@ html {
 .content2 {
     position: absolute;
     left: 50px;
-    bottom: 25px;
+    bottom: 20px;
     z-index: 5;
     padding: 0;
     display: flex;
@@ -843,7 +843,7 @@ h1 {
 
     #home .content {
         left: 0;
-        top: 65%;
+        top: 70%;
         width: 100%;
         transform: translateY(-50%);
     }
